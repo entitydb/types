@@ -24,7 +24,7 @@
   "homepage": "https://github.com/entitydb/type",
   "dependencies": {
     "entitydb-base": "^0.2.0",
-    "lodash": "^2.4.1"
+    "tv4": "^1.0.18"
   },
   "devDependencies": {
     "chai": "^1.9.1",
