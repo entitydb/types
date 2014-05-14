@@ -19,17 +19,10 @@ npm install --save entitydb-type
 ### use
 
 ```
-var level = require('level');
-var db = level('./db');
-var Type = require('type');
-var typeDB = Type(db);
+var Type = require('entitydb-type').Type;
 ```
 
-#### typeDB.get(id, callback)
-
-#### typeDB.put(type, callback)
-
-#### typeDB.del(id, callback)
+#### Type.extend({}, {})
 
 ### develop
 
